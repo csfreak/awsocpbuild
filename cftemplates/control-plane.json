@@ -1,0 +1,54 @@
+[
+    {
+        "ParameterKey": "InfrastructureName",
+        "ParameterValue": "<infra-name>"
+    },
+    {
+        "ParameterKey": "RhcosAmi",
+        "ParameterValue": "<coreos-ami>"
+    },
+    {
+        "ParameterKey": "Master0Subnet",
+        "ParameterValue": "<master-subnet-0>"
+    },
+    {
+        "ParameterKey": "Master1Subnet",
+        "ParameterValue": "<master-subnet-1>"
+    },
+    {
+        "ParameterKey": "Master2Subnet",
+        "ParameterValue": "<master-subnet-2>"
+    },
+    {
+        "ParameterKey": "MasterSecurityGroupId",
+        "ParameterValue": "<master-sg>"
+    },
+    {
+        "ParameterKey": "IgnitionLocation",
+        "ParameterValue": "https://api-int.<cluster-domain>:22623/config/master"
+    },
+    {
+        "ParameterKey": "CertificateAuthorities",
+        "ParameterValue": "data:text/plain;charset=utf-8;base64,<bootstrap-cert>"
+    },
+    {
+        "ParameterKey": "MasterInstanceType",
+        "ParameterValue": "m4.xlarge"
+    },
+    {
+        "ParameterKey": "EbsEncryptionKey",
+        "ParameterValue": "aws/ebs"
+    },
+    {
+        "ParameterKey": "AWSTagUserid",
+        "ParameterValue": "<userid>"
+    },
+    {
+        "ParameterKey": "AWSTagRole",
+        "ParameterValue": "OCP4"
+    },
+    {
+        "ParameterKey": "AWSTagNoStop",
+        "ParameterValue": "true"
+    }
+]

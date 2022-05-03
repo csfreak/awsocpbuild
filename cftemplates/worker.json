@@ -1,0 +1,46 @@
+[
+    {
+        "ParameterKey": "InfrastructureName",
+        "ParameterValue": "<infra-name>"
+    },
+    {
+        "ParameterKey": "RhcosAmi",
+        "ParameterValue": "<coreos-ami>"
+    },
+    {
+        "ParameterKey": "Subnet",
+        "ParameterValue": "subnet-0655610aa6217f120"
+    },
+    {
+        "ParameterKey": "WorkerSecurityGroupId",
+        "ParameterValue": "sg-0beabb80a79f44d2f"
+    },
+    {
+        "ParameterKey": "IgnitionLocation",
+        "ParameterValue": "https://api-int.<cluster-domain>:22623/config/worker"
+    },
+    {
+        "ParameterKey": "CertificateAuthorities",
+        "ParameterValue": "data:text/plain;charset=utf-8;base64,<bootstrap-cert>"
+    },
+    {
+        "ParameterKey": "WorkerInstanceType",
+        "ParameterValue": "m4.large"
+    },
+    {
+        "ParameterKey": "EbsEncryptionKey",
+        "ParameterValue": "aws/ebs"
+    },
+    {
+        "ParameterKey": "AWSTagUserid",
+        "ParameterValue": "<userid>"
+    },
+    {
+        "ParameterKey": "AWSTagRole",
+        "ParameterValue": "OCP4"
+    },
+    {
+        "ParameterKey": "AWSTagNoStop",
+        "ParameterValue": "true"
+    }
+]

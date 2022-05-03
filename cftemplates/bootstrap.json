@@ -1,0 +1,46 @@
+[
+    {
+        "ParameterKey": "InfrastructureName",
+        "ParameterValue": "<infra-name>"
+    },
+    {
+        "ParameterKey": "RhcosAmi",
+        "ParameterValue": "<coreos-ami>"
+    },
+    {
+        "ParameterKey": "AllowedBootstrapSshCidr",
+        "ParameterValue": "0.0.0.0/0"
+    },
+    {
+        "ParameterKey": "PrivateSubnet",
+        "ParameterValue": "<master-subnet-0>"
+    },
+    {
+        "ParameterKey": "MasterSecurityGroupId",
+        "ParameterValue": "<master-sg>"
+    },
+    {
+        "ParameterKey": "VpcId",
+        "ParameterValue": "<vpcid>"
+    },
+    {
+        "ParameterKey": "BootstrapIgnitionLocation",
+        "ParameterValue": "s3://<s3bucket>/bootstrap.ign"
+    },
+    {
+        "ParameterKey": "EbsEncryptionKey",
+        "ParameterValue": "aws/ebs"
+    },
+    {
+        "ParameterKey": "AWSTagUserid",
+        "ParameterValue": "<userid>"
+    },
+    {
+        "ParameterKey": "AWSTagRole",
+        "ParameterValue": "OCP4"
+    },
+    {
+        "ParameterKey": "AWSTagNoStop",
+        "ParameterValue": "true"
+    }
+]
